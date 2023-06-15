@@ -517,7 +517,8 @@ section .title::after{
 }
 
 .contact .right form .fields{
-    display: flex;
+    display: block;
+    /* display: flex; */
 }
 
 .contact .right form .field,
@@ -537,7 +538,7 @@ section .title::after{
 }
 
 .contact .right form .email{
-    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .contact .right form .field input,
@@ -580,9 +581,6 @@ section .title::after{
     background: none;
     transform: scale(1.05);
 }
-
-
-
 
 /* Responsive Media Query */
 @media (max-width: 1300px){
