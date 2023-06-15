@@ -266,10 +266,10 @@ section .title:hover::before{
 }
 
 .about .about-content .left img{
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
     object-fit: cover;
-    border-radius: 6px;
+    border-radius: 20%;
 }
 
 .about .about-content .right{
@@ -577,10 +577,16 @@ section .title:hover::before{
 
 .contact .contact-content .info .head{
     font-weight: 500;
+    font-size: 17px;
+    font-family: 'Inter', sans-serif;
 }
 
-.contact .contact-content .info .sub-title{
-    color:#706a74;
+.contact .contact-content .info .sub-title a{
+    /* color:#706a74; */
+    font-weight: 700;
+    font-size: 22px;
+    color: #350b7d;
+    text-decoration: underline;
 }
 
 .contact .right form .fields{
