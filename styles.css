@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;900&family=Poppins&family=Roboto:wght@400;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;900&family=Poppins&family=Roboto:wght@400;500;900&family=Urbanist:wght@400;600;900&display=swap');
 
 *{
     margin: 0;
@@ -169,7 +170,9 @@ html{
 
 /* Similar Content Styling */
 .about, .services, .skills, .projects, .contact, footer{
-    font-family: 'Inter', 'sans-serif'; 
+    /* font-family: 'Inter', 'sans-serif';  */
+    font-family: 'Archivo Black', 'sans-serif'; 
+    color: #e6e6fa;
 }
 
 .about .about-content,
@@ -184,32 +187,38 @@ html{
 
 section{
     padding: 100px 0;
-    background: #e6e6fa;
+    /* background: #e6e6fa; */
+    background: black;
 }
 
 section .title{
     position: relative;
     /* remember to left align */
-    text-align: center; 
-    font-size: 40px;
+    text-align: left; 
+    font-size: 80px;
     font-weight: 500;
     margin-bottom: 60px;
     padding-bottom: 20px;
-    font-family: 'Roboto', 'sans-serif';
+    font-family: 'Archivo Black', 'sans-serif';
 }
 
 section .title::before{
     content: "";
     position: absolute;
-    width: 180px;
-    height: 4px;
-    bottom: 0px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: black;
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    /* transform: translateX(-50%); */
+    background:#e6e6fa;
+    transition: width 0.25s ease-out;
 }
 
-section .title::after{
+section .title:hover::before{
+    width: 50%;
+}
+
+/* section .title::after{
     position: absolute;
     bottom: -12px;
     left: 50%;
@@ -217,8 +226,8 @@ section .title::after{
     transform: translateX(-50%);
     background: #e6e6fa;
     font-size: 20px;
-    color: #350b7d;
-}
+    color: #e6e6fa;
+} */
 
 /* About Section Styling */
 .about .title::after{
@@ -288,7 +297,8 @@ section .title::after{
 .services .title::after,
 .projects .title::after{
     content: '';
-    background-color: black;
+    /* background-color: black; */
+    background-color: #e6e6fa;
 }
 
 .services .services-content .card{
