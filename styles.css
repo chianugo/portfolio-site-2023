@@ -501,7 +501,6 @@ section .title::after{
 
 .contact .contact-content .row .info{
     margin-left: 30px;
-
 }
 
 .contact .contact-content .row i{
@@ -674,8 +673,8 @@ section .title::after{
         margin-bottom: 20px;
     }
 
-    .skills .skills-content .column{
-        width: 100%;
+    .skills .skills-content .column,
+    .contact .contact-content .column{
         margin-bottom: 35px;
     }
 }
