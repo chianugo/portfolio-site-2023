@@ -210,15 +210,23 @@ section{
 
 section .title{
     position: relative;
+    display: inline-block;
     /* remember to left align */
     text-align: left; 
     font-size: 80px;
     font-weight: 500;
-    margin-bottom: 60px;
-    padding-bottom: 20px;
+    margin-bottom: 30px;
+    /* padding-bottom: 20px; */
+    padding: 0.4rem;
+    width: 100%;
     font-family: 'Archivo Black', 'sans-serif';
+    max-width: fit-content!important;
 }
-
+*::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 section .title::before{
     content: "";
     position: absolute;
@@ -228,11 +236,11 @@ section .title::before{
     left: 0;
     /* transform: translateX(-50%); */
     background:#e6e6fa;
-    transition: width 0.25s ease-out;
+    transition: width 0.35s ease-out;
 }
 
 section .title:hover::before{
-    width: 50%;
+    width: 100%;
 }
 
 /* section .title::after{
