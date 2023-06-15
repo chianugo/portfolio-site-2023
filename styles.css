@@ -137,7 +137,7 @@
 }
 
 /* Similar Content Styling */
-.about, .services, .skills{
+.about, .services, .skills, .projects{
     font-family: 'Inter', 'sans-serif'; 
 }
 
@@ -243,16 +243,18 @@ section .title::after{
 }
 
 /* Services Section Styling */
-.services{
+.services, .projects{
     background-color: black;
     color: #e6e6fa;
 }
 
-.services .title::before{
+.services .title::before,
+.projects .title::before{
     background: #e6e6fa;
 }
 
-.services .title::after{
+.services .title::after,
+.projects .title::after{
     content: '';
     background-color: black;
 }
@@ -388,6 +390,27 @@ section .title::after{
 .skills-content .right .sql::before{
     width: 70%;
 }
+
+/* Projects Section Styling */
+.projects .title::after{
+    content: "";
+}
+
+.projects .carousel .card{
+    /* background-color: ; */
+    border-radius: 6px;
+    padding: 25px 35px;
+}
+
+.projects .carousel .card img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    /* border-style: 5px solid #350b7d; */
+    border-style: 5px solid #350b7d;
+}
+
 
 /* Responsive Media Query */
 @media (max-width: 1300px){
