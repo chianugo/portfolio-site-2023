@@ -41,8 +41,8 @@ $(document).ready(function(){
 
     var typed = new Typed(".typing-3", {
         strings: ["PLEASE PLEASE PLEASE HIRE ME", "ahem...", "I mean" , "I'm open to work ;)"],
-        typeSpeed: 100, 
-        backSpeed: 60,
+        typeSpeed: 90, 
+        backSpeed: 150,
         loop: false
     });
 

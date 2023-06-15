@@ -152,12 +152,13 @@ html{
 }
 
 .home .home-content .Text-3{
-    font-size: 60px;
+    font-size: 65px;
     margin: 5px 0;
 }
 
 .home .home-content .Text-4{
-    font-size: 30px;
+    font-size: 37px;
+    font-weight: 500;
     margin: 5px 0;
     color: #350b7d;
 }
@@ -217,7 +218,7 @@ section .title{
     font-weight: 500;
     margin-bottom: 30px;
     /* padding-bottom: 20px; */
-    padding: 0.4rem;
+    padding: 0.5rem;
     width: 100%;
     font-family: 'Archivo Black', 'sans-serif';
     max-width: fit-content!important;
@@ -725,7 +726,7 @@ footer span a:hover{
     }
 
     .home .home-content .Text-4{
-        font-size: 35px; 
+        font-size: 25px; 
     }
 
     .home .home-content a{
