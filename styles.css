@@ -98,7 +98,8 @@ html{
     color: #e6e6fa;
     z-index: 999;
     font-size: 30px;
-    border-radius: 6px;
+    border-radius: 30px;
+    border-style: solid black;
     cursor: pointer;
     opacity: 0;
     pointer-events: none;
@@ -131,18 +132,34 @@ html{
 }
 
 .home .home-content .Text-1{
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .home .home-content .Text-2{
-    font-size: 70px;
+    font-size: 129px;
     font-weight: 600;
-    margin-left: -3px;
+    /* margin-left: -3px; */
+}
+
+.home .home-content .Text-2 span{
+    color:#350b7d;
+    transition: all 0.3s ease;
+}
+
+.home .home-content .Text-2 span:hover{
+    transform: scale(1.3);
+    text-decoration: underline;
 }
 
 .home .home-content .Text-3{
-    font-size: 40px;
+    font-size: 60px;
     margin: 5px 0;
+}
+
+.home .home-content .Text-4{
+    font-size: 30px;
+    margin: 5px 0;
+    color: #350b7d;
 }
 
 .home .home-content .Text-3 span{
@@ -696,6 +713,10 @@ footer span a:hover{
     }
     
     .home .home-content .Text-3{
+        font-size: 35px; 
+    }
+
+    .home .home-content .Text-4{
         font-size: 35px; 
     }
 

@@ -39,6 +39,13 @@ $(document).ready(function(){
         loop: true
     });
 
+    var typed = new Typed(".typing-3", {
+        strings: ["PLEASE PLEASE PLEASE HIRE ME", "ahem...", "I mean" , "I'm open to work ;)"],
+        typeSpeed: 100, 
+        backSpeed: 60,
+        loop: false
+    });
+
     // Carousel Script
     $('.carousel').owlCarousel({
         margin: 20,
