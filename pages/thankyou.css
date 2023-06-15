@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;900&family=Poppins&family=Roboto:wght@400;500;900&family=Urbanist:wght@400;600;900&display=swap');
+
+body{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 900;
+    font-size: 500px;
+}
