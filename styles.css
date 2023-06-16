@@ -749,13 +749,13 @@ footer span a:hover {
 }
 
 /* Responsive Media Query */
-@media (max-width: 1300px) {
+@media (max-width: 1400px) {
     .home .max-width {
         margin-left: 0px;
     }
 }
 
-@media (max-width: 12000px) {
+@media (max-width: 1200px) {
     .about .about-content .left img {
         height: 350px;
         width: 350px;
@@ -868,6 +868,14 @@ footer span a:hover {
     .services .services-content .card {
         width: 100%;
     }
+
+    .contact .contact-content .column {
+        width: 100%;
+    }
+
+    .skills .skills-content .column {
+        width: calc(50% - 30px);
+    }
 }
 
 
@@ -898,6 +906,14 @@ footer span a:hover {
         margin: 5px 0;
         color: #350b7d;
     }
+
+    .contact .contact-content .column {
+        width: 100%;
+    }
+
+    .skills .skills-content .column {
+        width: calc(50% - 30px);
+    }
 }
 
 @media (max-width: 400px) {
@@ -926,6 +942,14 @@ footer span a:hover {
         font-weight: 500;
         margin: 5px 0;
         color: #350b7d;
+    }
+
+    .contact .contact-content .column {
+        width: 100%;
+    }
+
+    .skills .skills-content .column {
+        width: calc(50% - 30px);
     }
 }
 
