@@ -310,10 +310,9 @@ section .title:hover::before {
 }
 
 .about .about-content .left img {
-    height: 410px;
-    width: 410px;
+    height: 450px;
+    width: 450px;
     object-fit: cover;
-    border-radius: 20%;
     --_g: 10% /45% 45% no-repeat linear-gradient(#000 0 0);
     --m:
         left var(--_i, 0%) top var(--_g),
@@ -426,6 +425,7 @@ section .title:hover::before {
 
 .services .services-content .card:hover .box {
     transform: scale(1.05);
+    cursor: not-allowed;
 }
 
 .services .services-content .card .text {
@@ -575,6 +575,7 @@ section .title:hover::before {
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
+    background-color: transparent;
     /* border-style: 5px solid #350b7d; */
     border-style: 5px solid #350b7d;
     transition: all 0.3s ease;
