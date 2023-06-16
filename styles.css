@@ -846,6 +846,11 @@ footer span a:hover {
     .contact .contact-content .column {
         margin-bottom: 35px;
     }
+
+    section .title{
+        font-size: 7rem;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -875,6 +880,10 @@ footer span a:hover {
 
     .skills .skills-content .column {
         width: 100%;
+    }
+
+    section .title{
+        font-size: 6.8rem;
     }
 }
 
@@ -914,6 +923,10 @@ footer span a:hover {
     .skills .skills-content .column {
         width: 100%;
     }
+
+    section .title{
+        font-size: 6.6rem;
+    }
 }
 
 @media (max-width: 400px) {
@@ -921,6 +934,12 @@ footer span a:hover {
     /* .max-width {
         padding: 0 23px;
     } */
+
+    section .title{
+        font-size: 6.5rem;
+        
+    }
+
     .home .home-content .Text-2 {
         font-size: 50px;
     }
