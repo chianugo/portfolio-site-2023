@@ -849,6 +849,8 @@ footer span a:hover {
 
     section .title{
         font-size: 7rem;
+        display: flex;
+        flex-wrap: wrap;
     }
 
 }
@@ -884,6 +886,8 @@ footer span a:hover {
 
     section .title{
         font-size: 5.8rem;
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
@@ -926,6 +930,8 @@ footer span a:hover {
 
     section .title{
         font-size: 4.6rem;
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
@@ -937,7 +943,8 @@ footer span a:hover {
 
     section .title{
         font-size: 4.5rem;
-        
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .home .home-content .Text-2 {
