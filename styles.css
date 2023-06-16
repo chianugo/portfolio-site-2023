@@ -110,6 +110,9 @@ html{
     opacity: 1;
     pointer-events: auto;
     bottom: 30px;
+    /* border-style: 5px solid white; */
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black; */
 }
 
 /* Home Page Styling */
@@ -152,8 +155,14 @@ html{
 }
 
 .home .home-content .Text-3{
-    font-size: 65px;
+    font-size: 80px;
     margin: 5px 0;
+}
+
+.home .home-content .Text-3 span{
+    font-size: 80px;
+    margin: 5px 0;
+    font-stretch: ultra-expanded;
 }
 
 .home .home-content .Text-4{
@@ -210,6 +219,15 @@ section{
 }
 
 section .title{
+    /* color: #e6e6fa; */
+    -webkit-text-stroke: 2px #350b7d;
+    -webkit-text-fill-color: black;
+    text-shadow:
+       2px 2px 0 #350b7d,
+     -1px -1px 0 #350b7d,  
+      1px -1px 0 #350b7d,
+      -1px 1px 0 #350b7d,
+       1px 1px 0 #350b7d; 
     position: relative;
     display: inline-block;
     /* remember to left align */
@@ -222,21 +240,38 @@ section .title{
     width: 100%;
     font-family: 'Archivo Black', 'sans-serif';
     max-width: fit-content!important;
+    transition: all 0.3s ease;
 }
+
+section .title:hover{
+    /* color: #350b7d; */
+    cursor: not-allowed;
+    -webkit-text-fill-color: #350b7d;
+    transform: scale(1.08);
+    text-shadow:
+       0px 0px 0 #350b7d,
+    0px 0px 0 #350b7d,  
+      0px 0px 0 #350b7d,
+      0px 0px 0 #350b7d,
+       0px 0px 0 #350b7d; 
+}
+
 *::before, *::after{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border-radius: 30px;
 }
 section .title::before{
     content: "";
     position: absolute;
     width: 0;
-    height: 3px;
+    height: 6px;
     bottom: 0;
     left: 0;
+    padding-top: 0.2rem;
     /* transform: translateX(-50%); */
-    background:#e6e6fa;
+    background:#350b7d;
     transition: width 0.35s ease-out;
 }
 
@@ -317,14 +352,14 @@ section .title:hover::before{
 
 .services .title::before,
 .projects .title::before{
-    background: #e6e6fa;
+    background: #350b7d;
 }
 
 .services .title::after,
 .projects .title::after{
     content: '';
     /* background-color: black; */
-    background-color: #e6e6fa;
+    background-color: #350b7d;
 }
 
 .services .services-content .card{
