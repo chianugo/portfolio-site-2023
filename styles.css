@@ -120,7 +120,8 @@ html {
 /* Home Page Styling */
 .home {
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    /* background: url("images/banner.jpg") no-repeat center; */
+    background: #000;
     /* background: radial-gradient(#350253, #260539, #100110 );
     position: relative;
     animation: change 3s ease-in-out infinite; */
@@ -129,6 +130,7 @@ html {
     background-attachment: fixed;
     min-height: 500px;
     color: #e6e6fa;
+    /* color: #000; */
     font-family: 'Roboto', 'sans-serif';
 }
 
@@ -753,7 +755,7 @@ footer span a:hover {
     }
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 12000px) {
     .about .about-content .left img {
         height: 350px;
         width: 350px;
@@ -761,7 +763,7 @@ footer span a:hover {
     }
 }
 
-@media (max-width: 1010px) {
+@media (max-width: 1024px) {
 
     .navbar .menu {
         position: fixed;
@@ -846,7 +848,7 @@ footer span a:hover {
     }
 }
 
-@media (max-width: 690px) {
+@media (max-width: 768px) {
     .max-width {
         padding: 0 23px;
     }
@@ -869,7 +871,7 @@ footer span a:hover {
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 480px) {
 
     /* .max-width {
         padding: 0 23px;
@@ -880,6 +882,50 @@ footer span a:hover {
 
     .home .home-content .Text-3 {
         font-size: 27px;
+    }
+    .services .services-content .card {
+        width: 100%;
+    }
+    .home .home-content .Text-3 span {
+        font-size: 60px;
+        margin: 5px 0;
+        font-stretch: ultra-expanded;
+    }
+
+    .home .home-content .Text-4 {
+        font-size: 40px;
+        font-weight: 500;
+        margin: 5px 0;
+        color: #350b7d;
+    }
+}
+
+@media (max-width: 400px) {
+
+    /* .max-width {
+        padding: 0 23px;
+    } */
+    .home .home-content .Text-2 {
+        font-size: 50px;
+    }
+
+    .home .home-content .Text-3 {
+        font-size: 27px;
+    }
+    .services .services-content .card {
+        width: 100%;
+    }
+    .home .home-content .Text-3 span {
+        font-size: 50px;
+        margin: 5px 0;
+        font-stretch: ultra-expanded;
+    }
+
+    .home .home-content .Text-4 {
+        font-size: 35px;
+        font-weight: 500;
+        margin: 5px 0;
+        color: #350b7d;
     }
 }
 
