@@ -874,7 +874,7 @@ footer span a:hover {
     }
 
     .skills .skills-content .column {
-        width: calc(50% - 30px);
+        width: 100%;
     }
 }
 
@@ -912,7 +912,7 @@ footer span a:hover {
     }
 
     .skills .skills-content .column {
-        width: calc(50% - 30px);
+        width: 100%;
     }
 }
 
@@ -949,7 +949,7 @@ footer span a:hover {
     }
 
     .skills .skills-content .column {
-        width: calc(50% - 30px);
+        width: 100%;
     }
 }
 
